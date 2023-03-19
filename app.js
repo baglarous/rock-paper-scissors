@@ -21,8 +21,7 @@ function getComputerChoice(){
     return randomisedItem
 }
 
-function playRound(playerSelection, computerSelection)
- {
+function playRound(playerSelection, computerSelection) {
     if (playerSelection == computerSelection) {return "It is a Tie!"}
 
     else if (playerSelection == "scissors" && computerSelection == "paper"){
